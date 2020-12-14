@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
         Move();
         Jump();
         Attack();
+        // Kev veut pas download Tortoise Git faque i perd son temp comme un asti de retard
     }
 
     private void Move()
