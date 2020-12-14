@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     private Transform m_enemyTransform = null;
     [SerializeField]
     private SpriteRenderer m_enemySprite = null;
+    public int health = 50;
     public int moveSpeed = 3;
     public bool goingRight = false;
     public bool goingLeft = true;

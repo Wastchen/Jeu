@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     [SerializeField]
     private Rigidbody2D m_playerRigidbody = null;
 
+    public int health = 100;
     public int moveSpeed = 3;
     public int jumpHeight = 30;
     private bool canJump = true;
